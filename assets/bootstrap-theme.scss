@@ -1,0 +1,44 @@
+/* feel free to serve yourself with 26 different booteswatch free themes of bootstrap 5
+ * replace [name] with your choice on bootswatch imports below
+ * use https://bootswatch.com/ to preview available themes
+ * 
+ * Sketchy is funny
+ *
+ *  @import "~bootswatch/dist/[name]/variables";
+ *  @import "~bootswatch/dist/[name]/bootswatch";
+ *
+ * - default
+ * - cerulean
+ * - cosmo
+ * - cyborg
+ * - darkly
+ * - flatly
+ * - journal
+ * - litera
+ * - lumen
+ * - lux
+ * - materia
+ * - minty
+ * - morph
+ * - pulse
+ * - quartz
+ * - sandstone
+ * - simplex
+ * - sketchy
+ * - slate
+ * - solar
+ * - spacelab
+ * - superhero
+ * - united
+ * - vapor
+ * - yeti
+ * - zephyr
+*/
+
+// $enable-negative-margins: true;
+
+// IMPORTANT NOTE: do not change the orders of these import lines
+@import "./assets/scss/customize"; // extra customization
+@import "~bootswatch/dist/sketchy/variables";
+@import "~bootstrap/scss/bootstrap";
+@import "~bootswatch/dist/sketchy/bootswatch";
